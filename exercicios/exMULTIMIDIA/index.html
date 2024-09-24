@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="../icon/tanjirino.ico" type="image/x-icon">
+  <title>Multimidia</title>
+</head>
+
+<body>
+  <h1>Imagem dinâmica</h1>
+  <p title="usando tag  <source:media:type>">Tente abrir esse site em vários dispositivos diferentes ou apenas aumenta e
+    diminua o tamanho do navegador.</p>
+  <picture>
+    <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="Imagem flexível">
+
+  </picture>
+  <br>
+  <h1>Reproduzindo áudio</h1>
+  <p>Vamos aprender a reproduzir um áudio em HTML</p>
+  <audio preload="metadata" controls>
+    <source src="audio/Heart - Stairway to Heaven Led Zeppelin - Kennedy Center Honors HD.mp3" type="audio/mpeg">
+    <source src="audio/Heart - Stairway to Heaven Led Zeppelin - Kennedy Center Honors HD.ogg" type="audio/ogg">
+    <source title="É MUITO PESADO, N USE"
+      src="audio/Heart - Stairway to Heaven Led Zeppelin - Kennedy Center Honors HD.wav" type="audio/wav">
+    <p>infelizmente seu navegador nao consegue reporduzir audio. <a
+        href="audio/Heart - Stairway to Heaven Led Zeppelin - Kennedy Center Honors HD.mp3">Clique aqui para baixar o
+        arquivo</a></p>
+  </audio>
+  <br>
+
+  <p>Vamos aprender a reproduzir um vídeo em HTML <a href="video.html" rel="next">clicando aqui</a></p>
+
+</body>
+
+</html>
